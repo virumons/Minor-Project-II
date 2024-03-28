@@ -5,7 +5,7 @@ function Register(){
         <>
         <div className="flex">
             {/*First div*/}
-            <div className="w-1/2 pt-16 bg-blue-500 ">
+            <div className="w-1/2 pt-16 bg-blue-500">
                 <center><img src="logo.svg" alt="Logo" className="h-auto w-16 mb-2"></img>
                 <p className="text-white mb-2 font-bold text-4xl">Fileit</p>
                 <p className="text-white mb-2 font-bold text-3xl">Welcome!</p>
@@ -16,13 +16,13 @@ function Register(){
 
             {/*Second div*/}
             <div className="w-1/2 p-8">
-              <a href="#"><img src="icons8-back-arrow-60.png" className="h-10 w-14 px-4 py-2"></img></a>
+              <a href="#"><img src="icons8-back-arrow-60.png" className="h-8 w-14 px-4 py-2"></img></a>
               <center><p className="font-semibold pb-5 text-xl">Create account</p></center>
 
               <div className="mb-6">
-                <input type="text" id="fname" placeholder="First Name" className="w-80 border border-gray-300 rounded-lg px-4 py-2 mr-16 h-12"/>
-                <input type="text" id="lname" placeholder="Last Name" className="w-80 border border-gray-300 rounded-lg px-4 py-2 h-12"/>
-              </div>
+                <input type="text" id="fname" placeholder="First Name" className="w-80 border border-gray-300 rounded-lg px-4 py-2 mr-10 h-12 mb-6"/>
+        
+                <input type="text" id="lname" placeholder="Last Name" className="w-80 border border-gray-300 rounded-lg px-4 py-2 h-12 ml-4"/>
 
               <input type="text" id="num" placeholder="Phone-no" className="w-full border border-gray-300 rounded-lg px-4 py-2 mb-6 h-12"/>
 
@@ -36,6 +36,7 @@ function Register(){
 
               <center><button className="bg-gray-800 text-white px-20 py-4 rounded-lg">Create account</button></center>
             </div>
+        </div>
         </div>
         
         </>
