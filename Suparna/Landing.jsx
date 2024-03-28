@@ -5,8 +5,8 @@ function Landing(){
     <>
      <div className="flex flex-col hero_section h-[100vh]">
       
-      <div className="flex flex-row justify-between item-center px-10 py-10">
-      <label className='flex flex-row item-center justify-center'>
+      <div className="flex flex-row justify-between item-center px-8 py-6">
+      <label className="flex flex-row justify-center items-center">
       <img src="whitelogo.svg" alt="Logo" className="h-auto"></img>
         <h1 className="font-semibold text-xl mt-2 ml-2">Fileit</h1>
         </label>
